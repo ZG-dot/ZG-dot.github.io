@@ -1,0 +1,52 @@
+@media(min-width:768px){
+	.container-1{
+		display:flex;
+		justify-content:space-centre;
+	}
+
+	.container-2{
+		display:flex;
+		flex-direction:column;
+	}
+}
+
+.container-1 div, .container-2 div{
+	border:1px #ccc solid;
+	padding:10px;
+}
+
+.Redblock{
+	background-color:red;
+	width:2000px;
+	height:300px;
+	border:10px #ccc solid;
+	padding:30px;
+}
+
+.box-1{
+	flex:1;
+	order:2;
+}
+
+.box-2{
+	flex:1;
+	order:3;
+}
+
+.box-3{
+	flex:1;
+	order:1
+}
+
+.box-4{
+	flex:1;
+}
+
+.box-5{
+	flex:1;
+}
+
+.box-6{
+	flex:2;
+}
+
